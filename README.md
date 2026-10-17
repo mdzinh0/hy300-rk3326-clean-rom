@@ -188,13 +188,13 @@ Guarde os arquivos `system_original.img` e `oem_original.img` em um local seguro
 
 ## Etapa 2: Download das Imagens Limpas
 
-Baixe os arquivos prontos na aba **[Releases](../../releases)** deste repositório no GitHub:
+Baixe os arquivos prontos na aba **[Releases (v2.0)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/tag/v2.0)** deste repositório no GitHub:
 
-| Arquivo no Release | Conteúdo | Tamanho descompactado |
-|---|---|---|
-| `HY300_RK3326_rom_limpa_v2_system_projectivy.zip` | `system.img` limpo com Projectivy | ~1,5 GiB |
-| `HY300_RK3326_rom_limpa_v2_oem.zip` | `oem.img` limpo | ~512 MiB |
-| `SHA256SUMS_zips.txt` | Hashes de integridade | — |
+| Arquivo no Release | Conteúdo | Tamanho descompactado | Link direto |
+|---|---|---|---|
+| `HY300_RK3326_rom_limpa_v2_system_projectivy.zip` | `system.img` limpo com Projectivy | ~1,5 GiB | [Download (636 MB)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/download/v2.0/HY300_RK3326_rom_limpa_v2_system_projectivy.zip) |
+| `HY300_RK3326_rom_limpa_v2_oem.zip` | `oem.img` limpo | ~512 MiB | [Download (112 MB)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/download/v2.0/HY300_RK3326_rom_limpa_v2_oem.zip) |
+| `SHA256SUMS_zips.txt` | Hashes de integridade | — | [Download](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/download/v2.0/SHA256SUMS_zips.txt) |
 
 ### Verificação de Integridade (Hashes SHA256)
 
