@@ -4,6 +4,7 @@
 [![Android](https://img.shields.io/badge/Android-9.0%20(API%2028)-green.svg)]()
 [![Launcher](https://img.shields.io/badge/Launcher-Projectivy%204.72-blue.svg)]()
 [![Status](https://img.shields.io/badge/Status-v2%20Offline%20Verified-brightgreen.svg)]()
+[![Git LFS](https://img.shields.io/badge/Git%20LFS-Enabled-blueviolet.svg)]()
 
 > **⚠️ AVISO CRÍTICO DE COMPATIBILIDADE:**
 > O projetor **HY300** é vendido em diferentes versões de hardware. Existem modelos com processador **Rockchip RK3326** e modelos com **Allwinner H713**.
@@ -188,13 +189,25 @@ Guarde os arquivos `system_original.img` e `oem_original.img` em um local seguro
 
 ## Etapa 2: Download das Imagens Limpas
 
-Baixe os arquivos prontos na aba **[Releases (v2.0)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/tag/v2.0)** deste repositório no GitHub:
+Você pode obter os arquivos de duas formas:
+
+### Opção A: Download Direto via GitHub Releases (Recomendado)
+Baixe os arquivos compactados prontos na aba **[Releases (v2.0)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/tag/v2.0)**:
 
 | Arquivo no Release | Conteúdo | Tamanho descompactado | Link direto |
 |---|---|---|---|
 | `HY300_RK3326_rom_limpa_v2_system_projectivy.zip` | `system.img` limpo com Projectivy | ~1,5 GiB | [Download (636 MB)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/download/v2.0/HY300_RK3326_rom_limpa_v2_system_projectivy.zip) |
 | `HY300_RK3326_rom_limpa_v2_oem.zip` | `oem.img` limpo | ~512 MiB | [Download (112 MB)](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/download/v2.0/HY300_RK3326_rom_limpa_v2_oem.zip) |
 | `SHA256SUMS_zips.txt` | Hashes de integridade | — | [Download](https://github.com/mdzinh0/hy300-rk3326-clean-rom/releases/download/v2.0/SHA256SUMS_zips.txt) |
+
+### Opção B: Clonando o Repositório via Git LFS
+Se preferir clonar o repositório completo com os arquivos binários incluídos na pasta `release/`:
+```bash
+git lfs install
+git clone https://github.com/mdzinh0/hy300-rk3326-clean-rom.git
+cd hy300-rk3326-clean-rom
+git lfs pull
+```
 
 ### Verificação de Integridade (Hashes SHA256)
 
