@@ -1,7 +1,5 @@
 *.img
-*.zip
 *.apk
 *.bin
-release/
 backup_emmc/
 backup/
